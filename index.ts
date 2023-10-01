@@ -1,4 +1,4 @@
-import { inflate } from "https://deno.land/x/compress@v0.3.3/mod.ts";
+import { inflate } from "https://deno.land/x/compress@v0.4.5/mod.ts";
 
 export enum Tag { end, byte, short, int, long, float, double, byteArray, string, list, compound, intArray, longArray };
 type Pair<Tg extends Tag, Type> = { type: Tg, value: Type };
